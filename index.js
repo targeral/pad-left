@@ -6,6 +6,7 @@ const repeat = (ch, num) => {
 }
 
 module.exports = (str, num, ch) => {
+    console.log('test');
     str = str.toString()
 
     if (typeof num === 'undefined') {
